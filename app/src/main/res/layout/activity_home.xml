@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    android:gravity="center"
+    tools:context="com.example.mohamedramadan.weatheribs.Home">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather On Map"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/buttonbackground"
+        android:padding="10dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:onClick="goTOMap"
+        />
+    <Button
+        android:textStyle="bold"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cities"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/buttonbackground"
+        android:padding="10dp"
+        android:onClick="cities"
+        />
+</LinearLayout>

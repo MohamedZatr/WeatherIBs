@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WeatherIBs</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="cities">
+        <item>Marsa Matruh</item>
+        <item>Tanta</item>
+        <item>Ismailia</item>
+        <item>Damietta</item>
+        <item>Mansoura</item>
+        <item>Minuf</item>
+        <item>Cairo</item>
+        <item>Giza</item>
+        <item>Beni Suef</item>
+        <item>Suez</item>
+        <item>Al fayyum</item>
+        <item>Samalut</item>
+        <item>Asyut</item>
+        <item>Sohag</item>
+        <item>Qena</item>
+        <item>Luxor</item>
+        <item>Aswan</item>
+        <item>Ash Shāţibī</item>
+        <item>Sharm ash Shaykh</item>
+    </string-array>
+</resources>
+
+

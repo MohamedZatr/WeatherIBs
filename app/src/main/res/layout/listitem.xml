@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    >
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/city"
+    android:text="Cairo"
+    android:textColor="#fff"
+    android:textSize="17sp"
+    android:layout_centerVertical="true"
+    android:textStyle="bold"
+    />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Temp:-"
+        android:textColor="#fff"
+        android:id="@+id/temp"
+        />
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"        android:text="Temp:-"
+        android:textColor="#fff"
+        android:id="@+id/humidity"
+        android:layout_below="@id/temp"
+        />
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"        android:text="Temp:-"
+        android:textColor="#fff"
+        android:id="@+id/wind_Speed"
+        android:layout_below="@id/humidity"
+
+        />
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"        android:text="Temp:-"
+        android:textColor="#fff"
+        android:id="@+id/wind_degree"
+        android:layout_below="@id/wind_Speed"
+
+        />
+</RelativeLayout>
